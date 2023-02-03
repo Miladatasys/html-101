@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My HTML 101 Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>My HTML 101 Document</h1>
+      
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#sections">Sections</a></li>
+          <li><a href="#examples">Examples</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About this Document</h2>
+        <p>This document is an introduction to HTML and covers the basics of HTML syntax, elements, and attributes.</p>
+      </section>
+
+
+    <!-- Section Overview -->
+    <section id="sections">
+        <h2>Sections of this Document</h2>
+        <ol>
+          <li><a href="#introduction">Introduction to HTML</a></li>
+          <li><a href="#basic-syntax">Basic Syntax</a></li>
+          <li><a href="#html-elements">HTML Elements</a></li>
+          <li><a href="#html-attributes">HTML Attributes</a></li>
+        </ol>
+      </section>
+
+    <!-- Introduction -->
+    <section id="introduction">
+        <h3>Introduction to HTML</h3>
+        <p>HTML stands for Hypertext Markup Language and is used to structure the content of a web page. It uses elements and attributes to define the structure and content of a web page.</p>
+      </section>
+  
+      <!-- Basic Syntax -->
+      <section id="basic-syntax">
+        <h3>Basic Syntax</h3>
+        <p>The basic syntax of an HTML element consists of a start tag, content, and an end tag. The start tag is written using an angle bracket (<), the element name, and a closing angle bracket (>). The end tag is written using an angle bracket (<), a forward slash (/), the element name, and a closing angle bracket (>).</p>
+        <pre>
+          &lt;element&gt;Content&lt;/element&gt;
+        </pre>
+      </section>
+  
+      <!-- HTML Elements -->
+      <section id="html-elements">
+        <h3>HTML Elements</h3>
+        <p>HTML elements define the structure and content of a web page. Examples of common HTML elements include headings, paragraphs, lists, links, images, and tables.</p>
+        <img src="../images/html-css.jpg" alt="HTML Elements">
+      </section>
+  
+      <!-- HTML Attributes -->
+      <section id="html-attributes">
+        <h3>HTML Attributes</h3>
+        <p>HTML attributes provide additional information about an element. They are added to the start tag of an element and are written in the form of an attribute name and an attribute value, separated by an equal sign (=).</p>
+        <pre>
+          &lt;element attribute="value"&gt;Content&lt;/element&gt;
+        </pre>
+      </section>
+      <!-- HTML Form -->
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    
+
+        <label for="topic">Topic:</label>
+        <select id="topic" name="topic" required>
+
+        <option value="">--Please choose an option--</option>
+        <option value="feedback">Feedback</option>
+        <option value="question">Question</option>
+        <option value="other">Other</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Footer -->
+    <footer>
+      <p> GitHub Mila Data </p>
+    </footer>
