@@ -1,40 +1,18 @@
-# HTML-101
-A beginner's guide to HTML. This document covers the basics of HTML syntax, elements, and attributes.
+Front-End Development Fundamentals
 
-Table of Contents:
+Welcome to the repository for Basic Front-End Development! This repository contains resources and code examples to help you learn the fundamentals of front-end development, such as HTML, CSS, Sass, and JavaScript.
 
-About this Document
-Sections of this Document
-Introduction to HTML
-Basic Syntax
-HTML Elements
-HTML Attributes
-HTML Form
-About
-This document is an introduction to HTML and covers the basics of HTML syntax, elements, and attributes.
+HTML (Hypertext Markup Language) (Hypertext Markup Language)
+HTML is the most commonly used markup language for creating web pages. It provides a web page's structure and content, such as headings, paragraphs, images, and links.
 
-Sections:
+CSS (Cascading Style Sheets) (Cascading Style Sheets)
+CSS is a language that is used to style and layout web pages. It enables you to change the appearance and feel of a web page, such as the colors, fonts, and spacing.
 
-Introduction to HTML
-HTML stands for Hypertext Markup Language and is used to structure the content of a web page. It uses elements and attributes to define the structure and content of a web page.
+Sass
+Sass is a CSS preprocessor that extends CSS's capabilities by adding variables, mixins, and nested selectors. Sass simplifies the creation and maintenance of CSS.
 
-Basic Syntax:
+JavaScript
+JavaScript is a programming language that is used to make web pages more interactive. It is capable of manipulating HTML and CSS, creating animations, and handling user input.
 
-The basic syntax of an HTML element consists of a start tag, content, and an end tag. The start tag is written using an angle bracket (<), the element name, and a closing angle bracket (>). The end tag is written using an angle bracket (<), a forward slash (/), the element name, and a closing angle bracket (>).
+This repository contains basic HTML, CSS, Sass, and JavaScript examples for use in web pages. Use these examples as a jumping-off point for your own projects, and keep learning and improving your skills.
 
-<element>Content</element>
-
-HTML Elements:
-HTML elements define the structure and content of a web page. Examples of common HTML elements include headings, paragraphs, lists, links, images, and tables.
-
-HTML Attributes:
-HTML attributes provide additional information about an element. They are added to the start tag of an element and are written in the form of an attribute name and an attribute value, separated by an equal sign (=).
-
-<element attribute="value">Content</element>
-
-
-HTML Form:
-An HTML form allows a user to input data and send it to a server for processing. In this document, a basic form example is provided which includes fields for name, email, message, and a select option for a topic.
-
-Conclusion:
-This document provides a basic introduction to HTML, including information on syntax, elements, attributes, and forms. With this knowledge, you can start creating your own HTML documents and building basic web pages.
