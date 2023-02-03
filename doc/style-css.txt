@@ -1,0 +1,95 @@
+Selectors: Selectors are used to select the HTML elements you want to style. 
+Examples of selectors include tag selectors, class selectors, and ID selectors.
+
+Properties: Properties are the specific aspects of an HTML element that you want to change,
+ such as its color, font, or background.
+
+Values: Values are the specific settings you apply to a property, such as the color value for the color property.
+
+Declaration blocks: Declaration blocks are the blocks of code that contain the properties 
+and values you want to apply to your selected HTML elements.
+
+Box model: The box model is a concept that defines the space occupied by an HTML element,
+ including its padding, border, and margin.
+
+Floats: Floats allow you to place an HTML element to the left or right of its containing element,
+ with text and other elements flowing around it.
+
+Positioning: Positioning is used to specify the exact location of an HTML element on a page, 
+relative to its containing element or the page itself.
+
+Media queries: Media queries allow you to apply different CSS styles based on the size and 
+type of the device used to view a web page.
+
+Flexbox: Flexbox is a layout model that makes it easy to create flexible, responsive designs.
+
+Grid: Grid is a layout model that makes it easy to create complex, two-dimensional layouts.
+
+/* This is a comment in CSS */
+
+/* The selector is used to target an HTML element on a web page /
+selector {
+/ The property is used to define a specific aspect of the selected element */
+property: value;
+}
+
+/* For example, to change the background color of the body element */
+body {
+background-color: lightblue;
+}
+
+/* To set the font-size and font-family of all headings */
+h1, h2, h3, h4, h5, h6 {
+font-size: 1.5em;
+font-family: Arial, sans-serif;
+}
+
+/* To change the color of all links */
+a {
+color: green;
+}
+
+/* To set a specific width and height for an element with the id of "container" */
+#container {
+width: 80%;
+height: 500px;
+}
+
+/* To set styles for a class named "highlight" */
+.highlight {
+background-color: yellow;
+font-weight: bold;
+}
+
+/* To set styles for multiple elements with the class name "note" */
+.note {
+padding: 10px;
+margin: 20px;
+background-color: lightgray;
+}
+
+/* To create a hover effect for links */
+a:hover {
+color: blue;
+text-decoration: underline;
+}
+
+Background properties:
+    background-color, background-image, background-repeat, background-position
+Box model properties:
+    width, height, padding, border, margin
+Text properties:
+    font-size, font-family, color, text-align, text-decoration
+List properties:
+    list-style-type, list-style-image, list-style-position
+Table properties:
+    border-collapse, border-spacing, padding, text-align
+
+Flexbox and grid layout for creating flexible and responsive page layouts
+Transitions and animations for adding interactivity to your page
+Media queries for creating responsive designs that adjust to different screen sizes
+
+And you can learn to use CSS Frameworks such as Bootstrap, Foundation...
+CSS has preprocessors such as Sass and Less, which can help you. 
+
+In this repo we're going to use Sass after learn the basics of CSS
