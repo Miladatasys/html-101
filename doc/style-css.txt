@@ -93,3 +93,145 @@ And you can learn to use CSS Frameworks such as Bootstrap, Foundation...
 CSS has preprocessors such as Sass and Less, which can help you. 
 
 In this repo we're going to use Sass after learn the basics of CSS
+
+BASICS examples:
+
+Link goes into the head part:
+    <link rel="stylesheet" Is saying that we're looking for the stylesheet
+    type="text/css" more specific identifier
+    href="../css/style.css" this is our url to our stylesheet (you need to go back to the sheet (move back in directories))
+
+
+How to test your CSS or stylesheet: 
+create a property call background: it allows you to see a color background of the entire page
+
+Selectors:
+    Element selector: You type out your tag name and it's going to select all the elements with that tag name
+        p {
+            color: red;
+        }
+    Class selector: It goes by class name. You can apply this class to specific items and it's only going to style those.
+        HTML: <h2 class="aclass">A subheading</h2>
+            <p class="aclass">Some text</p>
+        CSS:  .aclass {
+                color: blue;
+            }
+
+    ID Selector: The prefix symbol is a hash or an octave hashtag. You type out the name of the ID and it puts it here:
+        HTML: <p id="sometext">Some Text</p>
+        CSS:  #sometext {
+                color: orange;
+            }
+        HTML: <h2 is="contact-us"> Contact us</2>
+        CSS:  #contact-us {
+                color: green;
+        }
+
+Classes and ID's:
+    The main differences between them is that while an ID is specific to a single element, 
+    classes can be assigned to multiple elements on a page or 
+    throughout the website (multiple times, it's kind of like a blueprint: it's made so that you can create multiples objects from it). 
+    They are not unique. And while a single element can only have one ID, it can have multiple classes.
+    the prefix of a Class is . while for ID's is #
+
+Specifity & when to use selectors:
+
+        HTML: <h2 class="about-me">About me</h2>
+
+        Here you can see that one selector says the color is red but one selector says the color is red but the other says is blue
+        CSS: h2 {
+                color: red;
+        }
+
+        .about-me {
+            color: blue;
+        }
+
+        So, which one has to prevail? selectors has different powers, the more specific, the higher chance of playing the right selector property.
+        Now, we know that the elements selectors are less powerful than the class, but there's is two more powerful than the class.
+        HTML:
+        <h2 class="subtitle">About me</h2>
+        <h2 class="subtitle" id="services">Services</h2>
+
+        CSS:
+        h2 {
+                color: red;
+        }
+
+        .subtitle {
+            color: blue;
+        }
+
+        #services {
+            color: green;
+        }
+
+        THE ID IS GOING TO OVERWRITE THE CLASS AND THE CLASS IS GOING TO OVERWRITE THE HEADER.
+
+        It's still one more powerful: style.
+        Inline styling, we don't need the CSS file to use it, all we need is the element and the HTML file
+        <h2 class="subtitle" id="services" style=" color: steelblue;">Services</h2> It's overwrite the id, class, header.
+
+Pseudo selectors:
+    After a selector you add a colon and the name of the pseudo selector, i'm going to name the main ones:
+
+    HOVER: 
+    h2:hover {
+        color: red;
+    }
+    CHILD SELECTOR: 
+        You can specify which one you want to select:
+
+        HTML: <UL>
+                <LI></LI> (First child)
+                <LI></LI> (Second)
+                <LI></LI> (Third)
+            </UL>       
+
+        CSS: li:first-child {
+            color: steelblue;
+        }
+
+        CSS: li:last-child {
+            color: steelblue;
+        }
+
+        I want every second child to be colored this color, so throughout the page every second child:
+        CSS: li:nth-child(2) {
+            color: steelblue;
+        }
+    
+        We're trying to look for it's only one child that is inside of it
+
+        HTML:  <UL>
+                    <LI></LI> 
+                </UL>       
+
+        CSS: li:only-child {
+            color: purple;
+        }
+
+    ANCHOR TAG OR THE A TAG: We can create pseudo selectors for this
+    HTML: <a href="http://www.google.com" id="google-link">Click here to go to Google</a>
+
+    THE CHANGE THE LINK AFTER IS BEEN CLICKED
+    CSS: #google-link: link { 
+            color: purple; (link is you unvisited link (default color))
+        }
+
+        #google-link:visited {
+            color: purple; (visited it's your opened link or clicked)
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+    
